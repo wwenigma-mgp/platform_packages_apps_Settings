@@ -1695,15 +1695,15 @@
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- About phone screen, status item label -->
-    <string name="firmware_version">Android version</string>
+    <string name="firmware_version">Platform version</string>
     <!-- About phone screen, status item label-->
-    <string name="model_number">Model number</string>
+    <string name="model_number">Model</string>
     <!-- About phone screen,  setting option name-->
-    <string name="baseband_version">Baseband version</string>
+    <string name="baseband_version">Baseband</string>
     <!-- About phone screen,  setting option name-->
-    <string name="kernel_version">Kernel version</string>
+    <string name="kernel_version">Kernel</string>
     <!-- About phone screen,  setting option name-->
-    <string name="build_number">Build number</string>
+    <string name="build_number">Mike Gapinski Rom Version</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
