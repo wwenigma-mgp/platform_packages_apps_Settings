@@ -95,6 +95,14 @@
         android:title="@string/applications_settings"
         android:id="@+id/application_settings" />
 
+    <!-- Overclocking -->
+    <header
+	android:id="@+id/cpu_settings"
+	android:fragment="com.android.settings.CPUActivity"
+	android:icon="@drawable/ic_settings_cpu"
+	android:title="@string/cpu_settings_title" />
+
+
     <!-- Manufacturer hook -->
     <header
         android:fragment="com.android.settings.WirelessSettings"
