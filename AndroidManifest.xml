@@ -1222,17 +1222,17 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
         </receiver>
-<receiver android:name=".CPUReceiver" android:enabled="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MEDIA_MOUNTED" />
-                <data android:scheme="file" />
-            </intent-filter>
-        </receiver>
-        <activity android:name=".CPUActivity"
-            android:label="@string/cpu_settings_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-            </intent-filter>
+<receiver android:name=".CPUReceiver" android:enabled="true"> 
+　　　　　　<intent-filter> 
+　　　　　　　　<action android:name="com.android.settings.CPUReceiver" /> 
+　　　　　　　　<data android:scheme="file" /> 
+　　　　　　</intent-filter> 
+　　　　</receiver> 
+　　　　<activity android:name=".CPUActivity"
+　　　　　　android:label="@string/cpu_settings_title">
+　　　　　　<intent-filter> 
+　　　　　　　　<action android:name="android.intent.action.CPUActivity"/> 
+　　　　　　</intent-filter> 　　　　
         </activity>
              
     </application>
